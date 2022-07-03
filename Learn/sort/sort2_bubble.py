@@ -23,13 +23,13 @@
 
 def bubble_sort(arr):
     for i in range( len(arr)-1, 0, -1 ):
-        changed= False
+        b_changed= False
         for j in range(i):
             if arr[j] > arr[j+1] :
                 arr[j],arr[j+1] = arr[j+1],arr[j]
-                changed= True
+                b_changed= True
             
-        if changed == False  :
+        if b_changed == False  :
             break
         
 #Test Code
